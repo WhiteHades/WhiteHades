@@ -1,4 +1,4 @@
-<h1 align="center" style="color:#cba6f7;">WhiteHades</h1>
+<h1 align="center" style="color:#cba6f7;">Mohammed Efaz</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/I%20like%20to%20code-%23f5c2e7?style=for-the-badge&logo=codeforces&logoColor=white" alt="I like to code badge">
