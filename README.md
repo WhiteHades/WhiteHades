@@ -1,6 +1,10 @@
 <h1 align="center" style="color:#cba6f7;">Mohammed Efaz</h1>
 
-[![An image of @whitehades's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/whitehades)](https://holopin.io/@whitehades)
+<p align="center">
+  <a href="https://holopin.io/@whitehades">
+    <img src="https://holopin.me/whitehades" alt="@whitehades's Holopin board" width="420" />
+  </a>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/I%20like%20to%20code-%23f5c2e7?style=for-the-badge&logo=codeforces&logoColor=white" alt="I like to code badge">
