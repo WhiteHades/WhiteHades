@@ -1,0 +1,28 @@
+name: Update stats cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch stats card
+        run: |
+          mkdir -p profile
+          curl -s "https://stats.mohammedefaz.com/api?username=WhiteHades&show_icons=true&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=f5c2e7&_=$(date +%s)" > profile/stats.svg
+
+      - name: Fetch top languages card
+        run: |
+          curl -s "https://stats.mohammedefaz.com/api/top-langs/?username=WhiteHades&layout=compact&hide_border=true&size_weight=0.5&count_weight=0.5&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&_=$(date +%s)" > profile/top-langs.svg
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add profile/
+          git diff --cached --quiet || (git commit -m "Update stats cards" && git push)

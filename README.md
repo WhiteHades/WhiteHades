@@ -3,6 +3,7 @@
 </p> -->
 
 <p align="center">
-  <img src="https://stats.mohammedefaz.com/api?username=WhiteHades&rank_gif=https://stats.mohammedefaz.com/gogeta.gif&theme=catppuccin_mocha&show_icons=true&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=f5c2e7" alt="GitHub Stats" />
-  <img src="https://stats.mohammedefaz.com/api/top-langs/?username=WhiteHades&theme=catppuccin_mocha&layout=compact&hide_border=true&size_weight=0.5&count_weight=0.5" alt="Top Languages" />
+  <img src="./profile/stats.svg" alt="GitHub Stats" />
+  <img height="200" align="center" src="https://stats.mohammedefaz.com/gogeta.gif" alt="Gogeta" />
+  <img src="./profile/top-langs.svg" alt="Top Languages" />
 </p>
