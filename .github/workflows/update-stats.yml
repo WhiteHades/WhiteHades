@@ -1,0 +1,41 @@
+name: Update GitHub stats
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-stats
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Download and validate stats
+        env:
+          STATS_URL: https://stats.mohammedefaz.com/api?username=WhiteHades&theme=catppuccin_mocha&show_icons=true&hide_rank=true&show=contributions&hide=commits,contribs&card_width=365&line_height=20&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=f5c2e7&disable_animations=true
+        run: |
+          curl --fail --silent --show-error --retry 3 --max-time 60 \
+            --output "$RUNNER_TEMP/stats.svg" "$STATS_URL"
+          grep -q '<svg' "$RUNNER_TEMP/stats.svg"
+          grep -q 'data-testid="stars"' "$RUNNER_TEMP/stats.svg"
+          grep -q 'data-testid="contributions"' "$RUNNER_TEMP/stats.svg"
+          grep -q '</svg>' "$RUNNER_TEMP/stats.svg"
+          mkdir -p assets
+          mv "$RUNNER_TEMP/stats.svg" assets/github-stats.svg
+      - name: Commit updated stats
+        run: |
+          git add assets/github-stats.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "chore: refresh github stats"
+          git push
