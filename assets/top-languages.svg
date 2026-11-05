@@ -158,7 +158,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="158.26"
+          width="161.72"
           height="8"
           fill="#dea584"
         />
@@ -166,19 +166,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="158.26"
+          x="161.72"
           y="0"
-          width="50.55"
-          height="8"
-          fill="#555555"
-        />
-
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="208.81"
-          y="0"
-          width="50.46"
+          width="50.12"
           height="8"
           fill="#3572A5"
         />
@@ -186,9 +176,19 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="259.27"
+          x="211.84"
           y="0"
-          width="46.26"
+          width="49.36"
+          height="8"
+          fill="#555555"
+        />
+
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="261.2"
+          y="0"
+          width="45.17"
           height="8"
           fill="#f34b7d"
         />
@@ -196,9 +196,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="305.53"
+          x="306.37"
           y="0"
-          width="34.46"
+          width="33.63"
           height="8"
           fill="#3178c6"
         />
@@ -211,23 +211,23 @@
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
         rust
       </text>
-      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">46.55%</text>
+      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">47.56%</text>
     </g>
   </g><g transform="translate(0, 20)">
     <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#555555" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        c
-      </text>
-      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">14.87%</text>
-    </g>
-  </g><g transform="translate(0, 40)">
-    <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
         python
       </text>
-      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">14.84%</text>
+      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">14.74%</text>
+    </g>
+  </g><g transform="translate(0, 40)">
+    <g class="stagger" style="animation-delay: 750ms">
+      <circle cx="5" cy="6" r="5" fill="#555555" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        c
+      </text>
+      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">14.52%</text>
     </g>
   </g><g transform="translate(0, 60)">
     <g class="stagger" style="animation-delay: 900ms">
@@ -235,7 +235,7 @@
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
         c++
       </text>
-      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">13.61%</text>
+      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">13.29%</text>
     </g>
   </g><g transform="translate(0, 80)">
     <g class="stagger" style="animation-delay: 1050ms">
@@ -243,7 +243,7 @@
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
         typescript
       </text>
-      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">10.13%</text>
+      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">9.89%</text>
     </g>
   </g>
     </g>
