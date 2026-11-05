@@ -1,8 +1,8 @@
 
       <svg
         width="365"
-        height="150"
-        viewBox="0 0 365 150"
+        height="195"
+        viewBox="0 0 365 195"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -97,7 +97,7 @@
           x="0.5"
           y="0.5"
           rx="4.5"
-          height="149"
+          height="194"
           stroke="#e4e2e2"
           width="364"
           fill="#1e1e2e"
@@ -143,7 +143,7 @@
         data-testid="stars"
       >14</text>
     </g>
-  </g><g transform="translate(0, 20)">
+  </g><g transform="translate(0, 30)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
       
     <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
@@ -159,7 +159,7 @@
         data-testid="contributions"
       >11717</text>
     </g>
-  </g><g transform="translate(0, 40)">
+  </g><g transform="translate(0, 60)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
       
     <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
@@ -175,7 +175,7 @@
         data-testid="prs"
       >311</text>
     </g>
-  </g><g transform="translate(0, 60)">
+  </g><g transform="translate(0, 90)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
       
     <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">

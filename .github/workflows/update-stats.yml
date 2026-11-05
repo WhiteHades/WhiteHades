@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Download and validate stats
         env:
-          STATS_URL: https://stats.mohammedefaz.com/api?username=WhiteHades&theme=catppuccin_mocha&show_icons=true&hide_rank=true&show=contributions&hide=commits,contribs&card_width=365&line_height=20&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=f5c2e7&disable_animations=true
+          STATS_URL: https://stats.mohammedefaz.com/api?username=WhiteHades&theme=catppuccin_mocha&show_icons=true&hide_rank=true&show=contributions&hide=commits,contribs&card_width=365&line_height=30&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=f5c2e7&disable_animations=true
         run: |
           curl --fail --silent --show-error --retry 3 --max-time 60 \
             --output "$RUNNER_TEMP/stats.svg" "$STATS_URL"
