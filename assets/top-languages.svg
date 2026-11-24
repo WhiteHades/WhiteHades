@@ -158,27 +158,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="83.37"
-          height="8"
-          fill="#dea584"
-        />
-
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="83.37"
-          y="0"
-          width="78.29"
-          height="8"
-          fill="#3572A5"
-        />
-
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="161.66000000000003"
-          y="0"
-          width="70.85"
+          width="95.75"
           height="8"
           fill="#555555"
         />
@@ -186,9 +166,29 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="232.51000000000002"
+          x="95.75"
           y="0"
-          width="64.95"
+          width="75.89"
+          height="8"
+          fill="#dea584"
+        />
+
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="171.64"
+          y="0"
+          width="70.94"
+          height="8"
+          fill="#3572A5"
+        />
+
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="242.57999999999998"
+          y="0"
+          width="58.88"
           height="8"
           fill="#f34b7d"
         />
@@ -196,9 +196,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="297.46000000000004"
+          x="301.46"
           y="0"
-          width="42.54"
+          width="38.54"
           height="8"
           fill="#3178c6"
         />
@@ -207,27 +207,27 @@
     <g transform="translate(0, 25)">
       <g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#dea584" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        rust
-      </text>
-      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">24.52%</text>
-    </g>
-  </g><g transform="translate(0, 20)">
-    <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#3572A5" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        python
-      </text>
-      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">23.03%</text>
-    </g>
-  </g><g transform="translate(0, 40)">
-    <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#555555" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
         c
       </text>
-      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">20.84%</text>
+      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">28.16%</text>
+    </g>
+  </g><g transform="translate(0, 20)">
+    <g class="stagger" style="animation-delay: 600ms">
+      <circle cx="5" cy="6" r="5" fill="#dea584" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        rust
+      </text>
+      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">22.32%</text>
+    </g>
+  </g><g transform="translate(0, 40)">
+    <g class="stagger" style="animation-delay: 750ms">
+      <circle cx="5" cy="6" r="5" fill="#3572A5" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        python
+      </text>
+      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">20.87%</text>
     </g>
   </g><g transform="translate(0, 60)">
     <g class="stagger" style="animation-delay: 900ms">
@@ -235,7 +235,7 @@
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
         c++
       </text>
-      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">19.10%</text>
+      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">17.32%</text>
     </g>
   </g><g transform="translate(0, 80)">
     <g class="stagger" style="animation-delay: 1050ms">
@@ -243,7 +243,7 @@
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
         typescript
       </text>
-      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">12.51%</text>
+      <text data-testid="lang-percent" x="340" y="10" class="lang-name" text-anchor="end">11.33%</text>
     </g>
   </g>
     </g>
